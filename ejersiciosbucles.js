@@ -76,7 +76,7 @@
 //     document.write(`<p>La suma es: ${suma}</p>`)
 
 
-// !5- Realizar una página con un script que calcule el valor de la letra de un número de DNI (Documento nacional de identidad).
+// ?5- Realizar una página con un script que calcule el valor de la letra de un número de DNI (Documento nacional de identidad).
 
 // El algoritmo para calcular la letra del dni es el siguiente :
     
@@ -88,65 +88,65 @@
     
     // Ejemplo: 
  
-do{
- let dni=parseInt(prompt("ingrese Dni"))
- let resto=dni%23
- console.log(resto)
- if(Number(dni)){
-    if(resto===0){
-        alert(dni+"T")
-    }else if(resto===1){
-        alert(dni+"R")
-    }else if(resto===2){
-        alert(dni+"W")
-    }else if(resto===3){
-        alert(dni+"A")
-    }else if(resto===4){
-        alert(dni+"G")
-    }else if(resto===5){
-        alert(dni+"M")
-    }else if(resto===6){
-        alert(dni+"Y")
-    }else if(resto===7){
-        alert(dni+"F")
-    }else if(resto===8){
-        alert(dni+"P")
-    }else if(resto===9){
-        alert(dni+"D")
-    }else if(resto===10){
-        alert(dni+"X")
-    }else if(resto===11){
-        alert(dni+"B")
-    }else if(resto===12){
-        alert(dni+"N")
-    }else if(resto===13){
-        alert(dni+"J")
-    }else if(resto===14){
-        alert(dni+"Z")
-    }else if(resto===15){
-        alert(dni+"S")
-    }else if(resto===16){
-        alert(dni+"Q")
-    }else if(resto===17){
-        alert(dni+"V")
-    }else if(resto===18){
-        alert(dni+"H")
-    }else if(resto===19){
-        alert(dni+"L")
-    }else if(resto===20){
-        alert(dni+"C")
-    }else if(resto===21){
-        alert(dni+"K")
-    }else if(resto===22){
-        alert(dni+"E")
-    }
-    (T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E) 
- }else{
-    var invalido=confirm("Escriva un numero valido");
- }
+// do{
+//  let dni=parseInt(prompt("ingrese Dni"))
+//  let resto=dni%23
+//  console.log(resto)
+//  if(Number(dni)){
+//     if(resto===0){
+//         alert(dni+"T")
+//     }else if(resto===1){
+//         alert(dni+"R")
+//     }else if(resto===2){
+//         alert(dni+"W")
+//     }else if(resto===3){
+//         alert(dni+"A")
+//     }else if(resto===4){
+//         alert(dni+"G")
+//     }else if(resto===5){
+//         alert(dni+"M")
+//     }else if(resto===6){
+//         alert(dni+"Y")
+//     }else if(resto===7){
+//         alert(dni+"F")
+//     }else if(resto===8){
+//         alert(dni+"P")
+//     }else if(resto===9){
+//         alert(dni+"D")
+//     }else if(resto===10){
+//         alert(dni+"X")
+//     }else if(resto===11){
+//         alert(dni+"B")
+//     }else if(resto===12){
+//         alert(dni+"N")
+//     }else if(resto===13){
+//         alert(dni+"J")
+//     }else if(resto===14){
+//         alert(dni+"Z")
+//     }else if(resto===15){
+//         alert(dni+"S")
+//     }else if(resto===16){
+//         alert(dni+"Q")
+//     }else if(resto===17){
+//         alert(dni+"V")
+//     }else if(resto===18){
+//         alert(dni+"H")
+//     }else if(resto===19){
+//         alert(dni+"L")
+//     }else if(resto===20){
+//         alert(dni+"C")
+//     }else if(resto===21){
+//         alert(dni+"K")
+//     }else if(resto===22){
+//         alert(dni+"E")
+//     }
+//     (T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E) 
+//  }else{
+//     var invalido=confirm("Escriva un numero valido");
+//  }
 
  
-}while(invalido)
+// }while(invalido)
 
 
 
@@ -270,8 +270,8 @@ do{
 // }
 //? 12- Realiza un script que genere un número aleatorio entre 1 y 99
 
-let random=Math.random()*100
-document.write(`<p>${Math.round(random)}</p>`)
+// let random=Math.random()*100
+// document.write(`<p>${Math.round(random)}</p>`)
 
 
 
@@ -352,4 +352,3 @@ document.write(`<p>${Math.round(random)}</p>`)
 // let ultimavocal=Math.max(a,e,i,o,u)
 // document.write("la ultima vocal de la letra ..."+Frace+"....esta en la posicion "+ultimavocal)
 
-// !ME FALTAA  EL PUNTO 5 y 10
