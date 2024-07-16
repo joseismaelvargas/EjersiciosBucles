@@ -87,6 +87,66 @@
     // Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».
     
     // Ejemplo: 
+ 
+do{
+ let dni=parseInt(prompt("ingrese Dni"))
+ let resto=dni%23
+ console.log(resto)
+ if(Number(dni)){
+    if(resto===0){
+        alert(dni+"T")
+    }else if(resto===1){
+        alert(dni+"R")
+    }else if(resto===2){
+        alert(dni+"W")
+    }else if(resto===3){
+        alert(dni+"A")
+    }else if(resto===4){
+        alert(dni+"G")
+    }else if(resto===5){
+        alert(dni+"M")
+    }else if(resto===6){
+        alert(dni+"Y")
+    }else if(resto===7){
+        alert(dni+"F")
+    }else if(resto===8){
+        alert(dni+"P")
+    }else if(resto===9){
+        alert(dni+"D")
+    }else if(resto===10){
+        alert(dni+"X")
+    }else if(resto===11){
+        alert(dni+"B")
+    }else if(resto===12){
+        alert(dni+"N")
+    }else if(resto===13){
+        alert(dni+"J")
+    }else if(resto===14){
+        alert(dni+"Z")
+    }else if(resto===15){
+        alert(dni+"S")
+    }else if(resto===16){
+        alert(dni+"Q")
+    }else if(resto===17){
+        alert(dni+"V")
+    }else if(resto===18){
+        alert(dni+"H")
+    }else if(resto===19){
+        alert(dni+"L")
+    }else if(resto===20){
+        alert(dni+"C")
+    }else if(resto===21){
+        alert(dni+"K")
+    }else if(resto===22){
+        alert(dni+"E")
+    }
+    (T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E) 
+ }else{
+    var invalido=confirm("Escriva un numero valido");
+ }
+
+ 
+}while(invalido)
 
 
 
@@ -162,15 +222,31 @@
  
 
 // }
-//? 10- Realiza un script que pida número de filas y columnas y escriba una tabla. Dentro de cada una de las celdas deberá escribirse un número consecutivo en orden descendente. Si, por ejemplo, la tabla es de 7×5 los números irán del 35 al 1.
-// let filas = parseInt(prompt("Introduce el número de filas:"));
-// let columnas = parseInt(prompt("Introduce el número de columnas:"));
+// 10- Realiza un script que pida número de filas y columnas y escriba una tabla. Dentro de cada una de las celdas deberá escribirse un número consecutivo en orden descendente. Si, por ejemplo, la tabla es de 7×5 los números irán del 35 al 1.
+// const filas=parseInt(prompt("ingrese filas"))
+// const column=parseInt(prompt("ingrese columnas"))
+// let total=filas*column;
 
-//   let total=filas*columnas
-// for(let i=1;i<=filas;i++){
-    
+
+// document.write(`<table><tbody>`)
+
+  
+// for(let ifilas=1;ifilas<=filas;ifilas++){
+//   document.write(`<tr>`)
+// for (let icolumnas=1;icolumnas<=column;icolumnas++){
+//     document.write(`<td>${total}</td>`)
+//     total--;
+
 // }
-// document.write("<tr>")
+// document.write(`</tr>`)
+// }
+  
+
+
+
+
+
+// document.write(`</tbody></table>`)
 // !Ejercicios con Math
 //? 11- Realiza un script que pida por teclado 3 edades y 3 nombres e indique el nombre del mayor. *
 
@@ -237,43 +313,43 @@ document.write(`<p>${Math.round(random)}</p>`)
 // document.write(`<p>${dividir.reverse()}</p>`)
 
 //? 17- Realiza un script que muestre la posición de la primera vocal de un texto introducido por teclado.
-const Frace=prompt("Escriba una Frace")
+// const Frace=prompt("Escriba una Frace")
 
-let a=0
-let e=0
-let i=0
-let o=0
-let u=0
+// let a=0
+// let e=0
+// let i=0
+// let o=0
+// let u=0
 
 
 
-for(let p=0;p<Frace.length;p++){
-    if(p="a"){
-        console.log(Frace.indexOf("a"))
-        a+=Frace.indexOf("a")
-    }
-    if(p="e"){
-        console.log(Frace.indexOf("e"))
-        e+=Frace.indexOf("e")
-    }
+// for(let p=0;p<Frace.length;p++){
+//     if(p="a"){
+//         console.log(Frace.indexOf("a"))
+//         a+=Frace.indexOf("a")
+//     }
+//     if(p="e"){
+//         console.log(Frace.indexOf("e"))
+//         e+=Frace.indexOf("e")
+//     }
     
-    if(p="i"){
-        console.log(Frace.indexOf("i"))
-        i+=Frace.indexOf("i")
-    }
-    if(p="o"){
-        console.log(Frace.indexOf("o"))
-        o+=Frace.indexOf("o")
-    }
-    if(p="u"){
-        console.log(Frace.indexOf("u"))
-        u+=Frace.indexOf("u")
-    }
+//     if(p="i"){
+//         console.log(Frace.indexOf("i"))
+//         i+=Frace.indexOf("i")
+//     }
+//     if(p="o"){
+//         console.log(Frace.indexOf("o"))
+//         o+=Frace.indexOf("o")
+//     }
+//     if(p="u"){
+//         console.log(Frace.indexOf("u"))
+//         u+=Frace.indexOf("u")
+//     }
     
           
     
-}
-let ultimavocal=Math.max(a,e,i,o,u)
-document.write("la ultima vocal de la letra ..."+Frace+"....esta en la posicion "+ultimavocal)
+// }
+// let ultimavocal=Math.max(a,e,i,o,u)
+// document.write("la ultima vocal de la letra ..."+Frace+"....esta en la posicion "+ultimavocal)
 
 // !ME FALTAA  EL PUNTO 5 y 10
